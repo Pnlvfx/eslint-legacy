@@ -1,0 +1,57 @@
+{
+  "name": "@goatjs/eslint",
+  "description": "My eslint configs.",
+  "version": "2025.1.30",
+  "author": {
+    "email": "simonegauli@gmail.com",
+    "name": "Simone Gauli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pnlvfx/eslint.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "exports": {
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js"
+    }
+  },
+  "scripts": {
+    "unused": "node tools/unused.ts",
+    "tsc": "tsc --noEmit true",
+    "test": "rimraf coverage && jest --coverage",
+    "lint": "eslint",
+    "build": "rimraf dist && eslint && tsc -p tsconfig.build.json",
+    "prepare": "husky",
+    "prepack": "yarn build",
+    "prepublishOnly": "yarn test && eslint"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.28.0",
+    "@goatjs/ts-unused-exports": "github:Pnlvfx/goatjs#workspace=@goatjs/ts-unused-exports",
+    "@goatjs/typescript-config": "github:Pnlvfx/typescript-config",
+    "@types/node": "^22.15.29",
+    "eslint": "^9.28.0",
+    "eslint-plugin-sonarjs": "^3.0.2",
+    "eslint-plugin-unicorn": "^59.0.1",
+    "globals": "^16.2.0",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.33.1"
+  },
+  "peerDependencies": {
+    "@goatjs/core": "*"
+  },
+  "packageManager": "yarn@4.9.2+sha512.1fc009bc09d13cfd0e19efa44cbfc2b9cf6ca61482725eb35bbc5e257e093ebf4130db6dfe15d604ff4b79efd8e1e8e99b25fa7d0a6197c9f9826358d4d65c3c"
+}
