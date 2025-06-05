@@ -16,9 +16,9 @@
     "node": ">=20.0.0"
   },
   "exports": {
-    "./*/*": {
-      "types": "./dist/*/*.d.ts",
-      "import": "./dist/*/*.js"
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.js"
     }
   },
   "scripts": {

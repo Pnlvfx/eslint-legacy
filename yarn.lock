@@ -117,6 +117,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@goatjs/eslint@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@goatjs/eslint@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.28.0"
+    "@goatjs/ts-unused-exports": "github:Pnlvfx/goatjs#workspace=@goatjs/ts-unused-exports"
+    "@goatjs/typescript-config": "github:Pnlvfx/typescript-config"
+    "@types/node": "npm:^22.15.29"
+    eslint: "npm:^9.28.0"
+    eslint-plugin-sonarjs: "npm:^3.0.2"
+    eslint-plugin-unicorn: "npm:^59.0.1"
+    globals: "npm:^16.2.0"
+    prettier: "npm:^3.5.3"
+    rimraf: "npm:^6.0.1"
+    typescript: "npm:^5.8.3"
+    typescript-eslint: "npm:^8.33.1"
+  peerDependencies:
+    "@goatjs/core": "*"
+  languageName: unknown
+  linkType: soft
+
 "@goatjs/ts-unused-exports@github:Pnlvfx/goatjs#workspace=@goatjs/ts-unused-exports":
   version: 2025.3.3
   resolution: "@goatjs/ts-unused-exports@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Fts-unused-exports&commit=9df152e117a4bff4c376c631af5522f69ecae31c"
@@ -680,27 +701,6 @@ __metadata:
   checksum: 10c0/c996b1cfdf95b6c90fee4dae37e332c8b6eb7d106430c17d538034c0ad9a1630cb194d2ab37293b1bdd4d779494beee7786d586a50bd9376fd6f7bcc2bd4c98f
   languageName: node
   linkType: hard
-
-"coraline-client@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "coraline-client@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^9.28.0"
-    "@goatjs/ts-unused-exports": "github:Pnlvfx/goatjs#workspace=@goatjs/ts-unused-exports"
-    "@goatjs/typescript-config": "github:Pnlvfx/typescript-config"
-    "@types/node": "npm:^22.15.29"
-    eslint: "npm:^9.28.0"
-    eslint-plugin-sonarjs: "npm:^3.0.2"
-    eslint-plugin-unicorn: "npm:^59.0.1"
-    globals: "npm:^16.2.0"
-    prettier: "npm:^3.5.3"
-    rimraf: "npm:^6.0.1"
-    typescript: "npm:^5.8.3"
-    typescript-eslint: "npm:^8.33.1"
-  peerDependencies:
-    "@goatjs/core": "*"
-  languageName: unknown
-  linkType: soft
 
 "core-js-compat@npm:^3.41.0":
   version: 3.42.0
