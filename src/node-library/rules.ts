@@ -21,6 +21,9 @@ const rules = {
   'no-unsafe-negation': 'error',
   'prefer-const': 'error',
 
+  // zod
+  'no-restricted-properties': ['error', { object: 'z', property: 'object', message: 'Use strictObject' }],
+
   'no-console': 'warn',
   'sonarjs/todo-tag': 'warn',
 
