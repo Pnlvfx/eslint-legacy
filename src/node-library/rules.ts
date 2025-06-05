@@ -20,16 +20,20 @@ const rules = {
   'no-multiple-empty-lines': 'error',
   'no-unsafe-negation': 'error',
   'prefer-const': 'error',
+
   'no-console': 'warn',
+  'sonarjs/todo-tag': 'warn',
 
   'no-unused-vars': 'off',
   '@typescript-eslint/no-unused-vars': 'off',
   'sonarjs/sonar-no-unused-vars': 'off',
-  'sonarjs/deprecation': 'off',
   'unicorn/prevent-abbreviations': 'off',
   'unicorn/catch-error-name': 'off',
+
+  // duplicates of tseslint
   'sonarjs/no-misused-promises': 'off',
   'sonarjs/sonar-prefer-optional-chain': 'off',
+  'sonarjs/deprecation': 'off',
 } as const;
 
 export default rules;
