@@ -1,5 +1,7 @@
 //using a single subfolder will result into a wrong dist
 
-const rules = [''] as const;
+import type { Linter } from 'eslint';
+
+const rules = {} satisfies Linter.RulesRecord;
 
 export default rules;

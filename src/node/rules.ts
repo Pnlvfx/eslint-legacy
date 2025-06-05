@@ -1,3 +1,5 @@
+import type { Linter } from 'eslint';
+
 const rules = {
   'no-var': 'error',
   semi: 'error',
@@ -37,6 +39,6 @@ const rules = {
   'sonarjs/no-misused-promises': 'off',
   'sonarjs/sonar-prefer-optional-chain': 'off',
   'sonarjs/deprecation': 'off',
-} as const;
+} satisfies Linter.RulesRecord;
 
 export default rules;
