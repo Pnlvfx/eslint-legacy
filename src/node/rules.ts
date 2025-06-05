@@ -39,6 +39,7 @@ const rules = {
   'sonarjs/no-misused-promises': 'off',
   'sonarjs/sonar-prefer-optional-chain': 'off',
   'sonarjs/deprecation': 'off',
+  'sonarjs/unused-import': 'off',
 } satisfies Linter.RulesRecord;
 
 export default rules;
