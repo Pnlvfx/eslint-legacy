@@ -31,7 +31,7 @@ const rules = {
 
   'no-unused-vars': 'off',
   '@typescript-eslint/no-unused-vars': 'off',
-  'sonarjs/sonar-no-unused-vars': 'off',
+  'sonarjs/no-unused-vars': 'off',
   'unicorn/prevent-abbreviations': 'off',
   'unicorn/catch-error-name': 'off',
 
