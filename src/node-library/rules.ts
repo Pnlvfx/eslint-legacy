@@ -1,4 +1,4 @@
-export const rules = {
+const rules = {
   'no-var': 'error',
   semi: 'error',
   'no-multi-spaces': 'error',
@@ -31,3 +31,5 @@ export const rules = {
   'sonarjs/no-misused-promises': 'off',
   'sonarjs/sonar-prefer-optional-chain': 'off',
 } as const;
+
+export default rules;
