@@ -1,5 +1,4 @@
 export const rules = {
-  indent: ['error', 2, { SwitchCase: 1 }],
   'no-var': 'error',
   semi: 'error',
   'no-multi-spaces': 'error',
@@ -31,4 +30,4 @@ export const rules = {
   'unicorn/catch-error-name': 'off',
   'sonarjs/no-misused-promises': 'off',
   'sonarjs/sonar-prefer-optional-chain': 'off',
-};
+} as const;
