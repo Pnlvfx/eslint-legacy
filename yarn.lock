@@ -133,8 +133,6 @@ __metadata:
     rimraf: "npm:^6.0.1"
     typescript: "npm:^5.8.3"
     typescript-eslint: "npm:^8.33.1"
-  peerDependencies:
-    "@goatjs/core": "*"
   languageName: unknown
   linkType: soft
 
