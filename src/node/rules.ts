@@ -22,9 +22,8 @@ const rules = {
   'no-multiple-empty-lines': 'error',
   'no-unsafe-negation': 'error',
   'prefer-const': 'error',
-
-  // zod
-  'no-restricted-properties': ['error', { object: 'z', property: 'object', message: 'Use strictObject' }],
+  // disallow z.object from zod as it will not validate unknown fields.
+  'no-restricted-properties': ['error', { object: 'z', property: 'object', message: 'Use z.strictObject instead.' }],
 
   'no-console': 'warn',
   'sonarjs/todo-tag': 'warn',

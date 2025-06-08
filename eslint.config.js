@@ -22,7 +22,6 @@ export default tseslint.config(
   },
   {
     rules: {
-      indent: ['error', 2, { SwitchCase: 1 }],
       'no-var': 'error',
       semi: 'error',
       'no-multi-spaces': 'error',

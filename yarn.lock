@@ -124,7 +124,7 @@ __metadata:
     "@eslint/js": "npm:^9.28.0"
     "@goatjs/ts-unused-exports": "github:Pnlvfx/goatjs#workspace=@goatjs/ts-unused-exports"
     "@goatjs/typescript-config": "github:Pnlvfx/typescript-config"
-    "@types/node": "npm:^22.15.29"
+    "@types/node": "npm:^22.15.30"
     eslint: "npm:^9.28.0"
     eslint-plugin-sonarjs: "npm:^3.0.2"
     eslint-plugin-unicorn: "npm:^59.0.1"
@@ -138,19 +138,19 @@ __metadata:
 
 "@goatjs/ts-unused-exports@github:Pnlvfx/goatjs#workspace=@goatjs/ts-unused-exports":
   version: 2025.3.3
-  resolution: "@goatjs/ts-unused-exports@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Fts-unused-exports&commit=9df152e117a4bff4c376c631af5522f69ecae31c"
+  resolution: "@goatjs/ts-unused-exports@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Fts-unused-exports&commit=b4094bc8cc57d89efe160c26133bcadaf3d834d7"
   dependencies:
     ts-unused-exports: "npm:^11.0.1"
   peerDependencies:
     typescript: "*"
-  checksum: 10c0/639a020b282a1ed23a49902dd826ba90695d02de4f663df99b0b817014e1f5839655f7610370709c10c013f0f80d7b684c3e523bda20dcf6daa43d169771e0d2
+  checksum: 10c0/c436b94f322b5d703e3aa6ef79211f8368c17d027b607e3e524e27baf0101c91a0f5f13906ddb0c746083db1d5e84d11eef1459ecf1f8f2ebbac043fb2a0f035
   languageName: node
   linkType: hard
 
 "@goatjs/typescript-config@github:Pnlvfx/typescript-config":
   version: 2025.4.21
-  resolution: "@goatjs/typescript-config@https://github.com/Pnlvfx/typescript-config.git#commit=5496a1960f9170305f053415670e5ba9ff686a9b"
-  checksum: 10c0/d5f9777ff0f1bb22d34607243015912fd4650a665061afb59b1b846f91ab20ccd079932aa55285affe4604afd062c15779704202a39e28d5c61344526959d428
+  resolution: "@goatjs/typescript-config@https://github.com/Pnlvfx/typescript-config.git#commit=efe5ad8024011265484d51a11f28c40683cb7491"
+  checksum: 10c0/38791b568afe407cf615578e0f2ed93d14e9dff9851d9c693043f24397a4ff3a11d0ad2520090f90c556213154d5f95d746068bfea064f5e6679df4b5b32dcab
   languageName: node
   linkType: hard
 
@@ -254,12 +254,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.15.29":
-  version: 22.15.29
-  resolution: "@types/node@npm:22.15.29"
+"@types/node@npm:^22.15.30":
+  version: 22.15.30
+  resolution: "@types/node@npm:22.15.30"
   dependencies:
     undici-types: "npm:~6.21.0"
-  checksum: 10c0/602cc88c6150780cd9b5b44604754e0ce13983ae876a538861d6ecfb1511dff289e5576fffd26c841cde2142418d4bb76e2a72a382b81c04557ccb17cff29e1d
+  checksum: 10c0/ca330ac0e7fd502686d6df115fcc606aba46fd334220f749bbba2f639accdadcb23f7900603ceccdc8240be736739cad5c0b87c0fa92c9255a4dff245f07d664
   languageName: node
   linkType: hard
 
