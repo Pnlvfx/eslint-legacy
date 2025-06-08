@@ -23,7 +23,11 @@ const rules = {
   'no-unsafe-negation': 'error',
   'prefer-const': 'error',
   // disallow z.object from zod as it will not validate unknown fields.
-  'no-restricted-properties': ['error', { object: 'z', property: 'object', message: 'Use z.strictObject instead.' }],
+  'no-restricted-properties': [
+    'error',
+    { object: 'z', property: 'object', message: 'Use z.strictObject instead.' },
+    { object: 'fs', property: 'access', message: 'Use @goatjs/node/fs instead' },
+  ],
 
   'no-console': 'warn',
   'sonarjs/todo-tag': 'warn',
