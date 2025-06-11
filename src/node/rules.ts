@@ -28,6 +28,7 @@ const rules = {
     { object: 'z', property: 'object', message: 'Use z.strictObject instead.' },
     { object: 'fs', property: 'access', message: 'Use @goatjs/node/fs instead' },
   ],
+  "quotes": ['error', 'single'],
 
   'no-console': 'warn',
   'sonarjs/todo-tag': 'warn',
