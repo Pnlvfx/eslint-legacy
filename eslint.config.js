@@ -43,6 +43,7 @@ export default tseslint.config(
       'no-multiple-empty-lines': 'error',
       'no-unsafe-negation': 'error',
       'prefer-const': 'error',
+      quotes: ['error', 'single', { avoidEscape: true }],
       'no-console': 'warn',
 
       'no-unused-vars': 'off',
