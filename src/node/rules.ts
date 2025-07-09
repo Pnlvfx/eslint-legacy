@@ -22,13 +22,13 @@ const rules = {
   'no-multiple-empty-lines': 'error',
   'no-unsafe-negation': 'error',
   'prefer-const': 'error',
-  // disallow z.object from zod as it will not validate unknown fields.
+  quotes: ['error', 'single', { avoidEscape: true }],
+  'no-restricted-imports': ['error', { name: 'mongodb', message: 'Use @goatjs/db instead' }],
   'no-restricted-properties': [
     'error',
     { object: 'z', property: 'object', message: 'Use z.strictObject instead.' },
     { object: 'fs', property: 'access', message: 'Use @goatjs/node/fs instead' },
   ],
-  quotes: ['error', 'single', { avoidEscape: true }],
 
   'no-console': 'warn',
   'sonarjs/todo-tag': 'warn',
