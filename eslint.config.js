@@ -54,6 +54,7 @@ export default tseslint.config(
       'unicorn/catch-error-name': 'off',
       'sonarjs/no-misused-promises': 'off',
       'sonarjs/sonar-prefer-optional-chain': 'off',
+      'no-empty': 'off',
     },
   },
   {
