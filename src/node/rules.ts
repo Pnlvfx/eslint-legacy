@@ -38,6 +38,7 @@ const rules = {
   'sonarjs/no-unused-vars': 'off',
   'unicorn/prevent-abbreviations': 'off',
   'unicorn/catch-error-name': 'off',
+  'no-empty': 'off',
 
   // duplicates of tseslint
   'sonarjs/no-misused-promises': 'off',
