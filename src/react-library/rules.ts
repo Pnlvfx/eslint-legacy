@@ -22,6 +22,7 @@ const rules = {
   'react/jsx-no-literals': 'error',
   'react/jsx-no-constructed-context-values': 'error',
   'react/self-closing-comp': 'error',
+  'react/jsx-no-leaked-render': 'error',
 } satisfies Linter.RulesRecord;
 
 export default rules;
