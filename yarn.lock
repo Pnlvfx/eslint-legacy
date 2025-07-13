@@ -150,21 +150,21 @@ __metadata:
 
 "@goatjs/rimraf@github:Pnlvfx/goatjs#workspace=@goatjs/rimraf":
   version: 2025.1.30
-  resolution: "@goatjs/rimraf@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Frimraf&commit=30e2be8bc2228b707a1111cdf5252298650eb07b"
+  resolution: "@goatjs/rimraf@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Frimraf&commit=775a7c357f32c912e828ef9fadb147c43e08ba71"
   bin:
     rimraf: dist/cli/rimraf.js
-  checksum: 10c0/ec21185e75172fd838901af914dbe93ccf8c7061bb5ce38ded41bc0c70a265d3cfc602bd8064db8d0becf505690958d23b16aced11915aae3c4fe255e0da9082
+  checksum: 10c0/fcaf72a3b1d0d0c5600efaafece5b83d419376fb33b6146f2ac080966e1acb14cbd2d263fe0292836dba6635937c656ed60fa7809753f0186459244d89c7d360
   languageName: node
   linkType: hard
 
 "@goatjs/ts-unused-exports@github:Pnlvfx/goatjs#workspace=@goatjs/ts-unused-exports":
   version: 2025.3.3
-  resolution: "@goatjs/ts-unused-exports@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Fts-unused-exports&commit=30e2be8bc2228b707a1111cdf5252298650eb07b"
+  resolution: "@goatjs/ts-unused-exports@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Fts-unused-exports&commit=775a7c357f32c912e828ef9fadb147c43e08ba71"
   dependencies:
     ts-unused-exports: "npm:^11.0.1"
   peerDependencies:
     typescript: "*"
-  checksum: 10c0/b6e18a7b95ccf022c078f07aae52daee0d48faab43b6a71a887564dbb2d370b48da5973c198ad05203f4aa09a63fce8529fac6313af172c34d3591843dda649a
+  checksum: 10c0/8003a61b877e74d25f2f16b820e1c6d53d81d80f10cee972ab23f6618eaedcaeeb80e1ba65d8ffabdac5f689a9de02d5e05d842f8b0f214a27d6160730540e2c
   languageName: node
   linkType: hard
 
@@ -177,8 +177,8 @@ __metadata:
 
 "@goatjs/updater@github:Pnlvfx/goatjs#workspace=@goatjs/updater":
   version: 2025.1.30
-  resolution: "@goatjs/updater@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Fupdater&commit=30e2be8bc2228b707a1111cdf5252298650eb07b"
-  checksum: 10c0/4e87f00ff844d5d831e7eed13803e369ae7ab2ece20f9f39ef2e106ab00d46aa5682d2f0607da19517075249517665e04206bd584bde7755d3447aab5440a732
+  resolution: "@goatjs/updater@https://github.com/Pnlvfx/goatjs.git#workspace=%40goatjs%2Fupdater&commit=775a7c357f32c912e828ef9fadb147c43e08ba71"
+  checksum: 10c0/bcac3eb255ca4f660da1ace70f06f0f78017611a5312cad19dde8eda2dc573b4c096e25009a58877f064967804935c64f022acfd52b3cf4f55523421bbba9c45
   languageName: node
   linkType: hard
 

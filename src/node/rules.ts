@@ -7,6 +7,7 @@ const rules = {
   'no-restricted-properties': [
     'error',
     { object: 'z', property: 'object', message: 'Use z.strictObject instead.' },
+    { object: 'z', property: 'enum', message: 'Use z.literal instead.' },
     { object: 'fs', property: 'access', message: 'Use @goatjs/node/fs instead' },
   ],
 } satisfies Linter.RulesRecord;
