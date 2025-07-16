@@ -1,5 +1,5 @@
 {
-  "name": "@goatjs/eslint",
+  "name": "@goatjs/eslint-legacy",
   "description": "My eslint configs.",
   "version": "2025.1.30",
   "author": {
